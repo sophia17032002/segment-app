@@ -1,0 +1,19 @@
+.schema-dropdown {
+    display: flex;
+    align-items: center;
+    margin-block: 5pt;
+}
+
+.schema-dropdown .legend-indicator {
+    width: 7pt;
+    height: 7pt;
+    border-radius: 50%;
+    margin-right: 5pt;
+}
+
+.schema-dropdown .remove-dropdown {
+    border: 2px solid rgba(224, 255, 255, 0.749);
+    padding-block: 6pt;
+    padding-inline: 3pt;
+    background-color: rgba(224, 255, 255, 0.825);
+}

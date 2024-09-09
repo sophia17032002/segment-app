@@ -1,0 +1,128 @@
+@import url("./public/styles/segment.css");
+@import url("./public/styles/segmentPopup.css");
+@import url("./public/styles/schemaDropdown.css");
+
+body {
+  overflow-x: hidden;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* background styles */
+.bg-blue-aero {
+  background-color: #1ea072;
+}
+
+.bg-inherit {
+  background-color: inherit;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+/* text styles */
+.text-white {
+  color: white;
+}
+
+.text-red {
+  color: red;
+}
+
+/* border styles */
+.border-white {
+  border-color: white;
+}
+
+/* font weight */
+.font-weight-700 {
+  font-weight: 9 00;
+}
+
+/* margin styles */
+
+/* margin top */
+.mt-20 {
+  margin-top: 20pt;
+}
+
+/* margin left */
+.ml-15{
+  margin-left: 15pt;
+}
+.ml-20 {
+  margin-left: 20pt;
+}
+
+/* margin right */
+.mr-18 {
+  margin-right: 18pt;
+}
+
+.mr-20 {
+  margin-right: 20pt;
+}
+
+/* margin inline */
+.mx-5 {
+  margin-inline: 5pt;
+}
+
+.mb-height-11 {
+  margin-bottom: 11vh;
+}
+
+/* cursor styles */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* basic UI styles */
+.btn {
+  padding-inline: 10pt;
+  padding-block: 7pt;
+  border: none;
+  border-radius: 2pt;
+  cursor: pointer;
+  margin-inline: 10pt;
+}
+
+.input-field {
+  width: 85%;
+  padding-inline: 15pt;
+  padding-block: 8pt;
+  border: 2px solid lightgrey;
+}
+
+.dropdown {
+  width: 80%;
+  padding-inline: 15pt;
+  padding-block: 8pt;
+  border: 2px solid lightgrey;
+  appearance: none;
+  cursor: pointer;
+}
+
+.drowdown-arrow {
+  margin-left: -23pt;
+  pointer-events: none;
+  padding-right: 13pt;
+}
+
+.link {
+  font-size: 14px;
+  padding: 2px;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 2px solid lightblue;
+}
+
+.link:hover,
+.link:visited,
+.link:focus {
+  color: inherit;
+}
+
+.text-link-green {
+  color: #28e49f;
+}
